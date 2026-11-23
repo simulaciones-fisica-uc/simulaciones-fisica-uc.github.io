@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Laboratorios virtuales y simulaciones experimentales de Física para Ingeniería.">
+  <title>Laboratorios virtuales y simulaciones experimentales de Física para Ingeniería</title>
+  <style>
+    :root { --azul:#123b63; --azul2:#1d5b88; --fondo:#f2f6fa; --texto:#203040; --dorado:#d5ad55; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--texto); background:var(--fondo); line-height:1.55; }
+    header { background:linear-gradient(120deg,var(--azul),var(--azul2)); color:white; padding:30px 20px 34px; }
+    .encabezado { max-width:1100px; margin:auto; display:flex; align-items:center; gap:24px; }
+    .escudo { width:86px; height:112px; object-fit:contain; flex:0 0 auto; }
+    h1 { margin:0; font-size:clamp(1.55rem,3vw,2.35rem); line-height:1.2; }
+    .subtitulo { margin:12px 0 0; color:#e7f0f8; font-size:1.05rem; }
+    main { max-width:1100px; margin:34px auto; padding:0 20px; }
+    .introduccion { background:white; border-left:5px solid var(--dorado); border-radius:10px; padding:20px 24px; box-shadow:0 4px 16px #173b5810; margin-bottom:26px; }
+    .introduccion h2 { margin:0 0 8px; color:var(--azul); font-size:1.35rem; }
+    .rejilla { display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:18px; }
+    .tarjeta { background:white; border-radius:12px; padding:22px; box-shadow:0 5px 18px #173b5812; border-top:4px solid var(--azul2); display:flex; flex-direction:column; min-height:190px; }
+    .numero { color:#9a762c; font-weight:bold; font-size:.88rem; letter-spacing:.08em; text-transform:uppercase; }
+    .tarjeta h3 { color:var(--azul); margin:10px 0 18px; font-size:1.12rem; line-height:1.4; }
+    .boton { display:inline-block; margin-top:auto; align-self:flex-start; text-decoration:none; color:white; background:var(--azul2); padding:10px 16px; border-radius:7px; font-weight:bold; }
+    .boton:hover,.boton:focus { background:var(--azul); outline:3px solid #d5ad5580; outline-offset:2px; }
+    footer { margin-top:42px; background:#e4edf5; padding:24px 20px; text-align:center; font-size:.95rem; }
+    footer strong { color:var(--azul); }
+    footer a { color:var(--azul2); }
+    @media(max-width:560px) { .encabezado { align-items:flex-start; gap:15px; } .escudo { width:65px; height:90px; } header { padding:24px 16px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="encabezado">
+      <img class="escudo" src="escudo-uc.png" alt="Escudo de la Universidad de Camagüey">
+      <div>
+        <h1>Laboratorios virtuales y simulaciones experimentales de Física para Ingeniería</h1>
+        <p class="subtitulo">Recursos para el aprendizaje experimental, el análisis de datos y la formación investigativa.</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="introduccion">
+      <h2>Prácticas de laboratorio</h2>
+      <p>Seleccione una práctica para acceder a su simulación. Cada recurso está orientado a relacionar el trabajo experimental con el tratamiento de mediciones, el análisis gráfico y la interpretación de resultados físicos.</p>
+    </section>
+
+    <section class="rejilla" aria-label="Catálogo de simulaciones">
+      <article class="tarjeta">
+        <span class="numero">Práctica 01</span>
+        <h3>Determinación de la inductancia de una bobina rectangular</h3>
+        <a class="boton" href="Simulacion.-%20Determinar%20inductancia_bobina_rectangular_2026.html">Abrir simulación</a>
+      </article>
+
+      <article class="tarjeta">
+        <span class="numero">Práctica 02</span>
+        <h3>Determinación de la capacitancia de un capacitor</h3>
+        <a class="boton" href="Simulacion.-%20Determinar%20la%20capacitancia%20de%20un%20capacitor%202026.html">Abrir simulación</a>
+      </article>
+
+      <article class="tarjeta">
+        <span class="numero">Práctica 03</span>
+        <h3>Determinación de la componente horizontal de la inducción magnética terrestre</h3>
+        <a class="boton" href="Simulacion_Determinar%20la%20componente%20horizontal%20de%20la%20Induccion_Magnetica_Tierra_2026.html">Abrir simulación</a>
+      </article>
+
+      <article class="tarjeta">
+        <span class="numero">Práctica 04</span>
+        <h3>Determinación de la inducción magnética de un solenoide</h3>
+        <a class="boton" href="Simulacion_Determinar%20la%20inducci%C3%B3n%20magn%C3%A9tica%20de%20un%20solenoide_2026.html">Abrir simulación</a>
+      </article>
+
+      <article class="tarjeta">
+        <span class="numero">Práctica 05</span>
+        <h3>Determinación de la intensidad del campo eléctrico entre placas cargadas</h3>
+        <a class="boton" href="Simulacion_Determinar%20la%20intensidad%20del%20campo%20el%C3%A9ctrico%20entre%20placas_cargadas_2026.html">Abrir simulación</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Autor del diseño didáctico.- Dr.C. Carlos Alvarez Martinez de Santelices</strong></p>
+    <p>Contacto: WhatsApp.- +5355440104 · Email.- <a href="mailto:carloseliannys@gmail.com">carloseliannys@gmail.com</a></p>
+  </footer>
+</body>
+</html>
